@@ -158,7 +158,7 @@ const MainTrading = () => {
                 try {
                     const response = await axios("https://api.freecurrencyapi.com/v1/latest", {
                         params: {
-                            apikey: "fca_live_hovlu5gaOUPK0qsqmPPvpd46IvmJ29XYnKbpTZt2",
+                            apikey: "apikey",
                             base_currency: codeFromCurrency,
                             currencies: codeToCurrency
                         }
