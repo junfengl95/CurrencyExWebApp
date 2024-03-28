@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	<Properties>
+	<!-- in relation to the current location i.e src/main/logging -->
+		<Property name="basePath">src/main/logging</Property>
+	</Properties>
+    <Appenders>
+    	<!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        
+        <!-- File Appender -->
+        <File name="FileAppender" filename="${basePath}/projectlog.log" append="true">
+        	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+    </Appenders>
+    
+    <Loggers>
+    	<!--  Root Logger -->
+        <Root level="error">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="FileAppender" />
+        </Root>
+        
+        <!-- Logger for SpringProject -->
+        <Logger name="com.fdm.velocitytrade" level="info">
+        	<AppenderRef ref="FileAppender" level="fatal" />
+        </Logger>
+    </Loggers>
+</Configuration>
