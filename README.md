@@ -1,3 +1,11 @@
+This project was a group effort to create a Currency Exchange Web Application using Eclipse IDE, SpringBoot, mySQL and React.
+
+Eclipse contains the Entity Framework of the program and mySQL was used as the database to persist any changes made by the user in the React App.
+
+The api called for the currency exchange rate is from https://freecurrencyapi.com/.
+
+<hr />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
