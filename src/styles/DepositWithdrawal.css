@@ -1,0 +1,48 @@
+/* DepositWithdrawal.css */
+.tab-button {
+    background: none; /* Remove button background */
+    border: none; /* Remove border */
+    outline: none; /* Remove focus outline */
+    padding: 10px 20px; /* Spacing inside the tabs */
+    border-radius: 5px 5px 0 0; /* Rounded corners on the top */
+    margin: 0 5px; /* Spacing between tabs */
+    cursor: pointer; /* Change mouse pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover and active states */
+    font-size: 1rem; /* Set font size */
+    color: #555; /* Set default text color */
+  }
+  
+  .tab-button:hover,
+  .tab-button:focus {
+    background-color: #e7e7e7; /* Lighten background color on hover/focus */
+    color: #333; /* Darken text color for contrast */
+  }
+  
+  .tab-button.active {
+    background-color: #fff; /* White background for active tab */
+    border-bottom: 2px solid #fff; /* Hide border with same color as active background */
+    color: #007bff; /* Highlight color for active tab text */
+    font-weight: bold; /* Optional: Make the active tab's text bold */
+  }
+  
+  .tab-container {
+    border-bottom: 2px solid #ddd; /* Line under the tabs to indicate separation from content */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1px; /* Makes active tab stick to the border */
+  }
+
+  .holding-display {
+    font-size: 1.1rem; /* Example size, adjust as needed */
+    color: #333; /* Dark grey text color, feel free to change */
+    font-weight: bold; /* Make it bold */
+    margin: 10px 0; /* Add some space above and below */
+    padding: 7px; /* Add some padding around the text */
+    border-radius: 5px; /* Optionally round the corners */
+    background-color: #f0f0f0; /* Light grey background */
+    width: fit-content; /* Fit the content's width */
+    border: 1px solid #ccc; /* Add a light border */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px;
+  }
+  

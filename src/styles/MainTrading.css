@@ -1,0 +1,84 @@
+.same-width {
+    width: 100%; /* This will make sure both divs take the full width of their parent */
+  }
+
+  /* YourComponent.css */
+/* .container {
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.box-style {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  background: #ffffff;
+  margin-top: 1rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.trade-info {
+  margin-top: 1rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.search-button,
+.refresh-button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.order-board {
+  margin-top: 2rem;
+}
+
+.order-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}*/
+
+.order-table th {
+  background-color: #d3cece;
+} 
+
+/* CSS file */
+.order-board {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.5);
+}
+
+.table-style {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* White with opacity */
+  border-collapse: collapse;
+  /* Other styling */
+}
+
+.table-style th,
+.table-style td {
+  padding: 15px;
+  text-align: left;
+  /* Other styling */
+}
+
+.table-style thead {
+  background-color: rgba(0, 0, 0, 0.1); /* Slightly darker for the header */
+  /* Other styling */
+}

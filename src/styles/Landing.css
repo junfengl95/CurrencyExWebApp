@@ -1,0 +1,91 @@
+/* Landing.css */
+.Landing-background {
+    background-image: src('src\styles\photo.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Make sure the Container takes up the full available height */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Centers the content horizontally */
+    text-align: center;
+    position: relative;
+  }
+
+  .welcome-text {
+    text-align: right;
+    margin-right: 1100px;
+    position: relative; /* Use relative positioning */
+    top: -83px; /* Adjust this value to move the text upward */
+    
+  }
+  
+  /* Optional: If you want to ensure the welcoming text is always displayed in two lines */
+  .welcome-text h2 {
+    display: block; /* Forces the h2 to be a block, ensuring it takes up the full width */
+    margin-bottom: 0; /* Removes the default margin to tighten the line spacing */
+  }
+  
+
+  /* Style specifically for the "Welcome To VelocityTrade," h2 */
+/* Landing.css */
+.welcome-velocitytrade {
+  font-family: 'Arial', sans-serif; 
+  font-size: 90px; 
+  }
+
+.welcome-velocitytrade:hover {
+  transform: scale(1.05); /* Slightly enlarge the text on hover */
+}
+
+  .welcome-velocitytrade-des {
+    font-family: 'Arial', sans-serif;;; /* Example font family */
+    font-size: 20px; /* Example font size */
+    /* Add more styles as needed */
+  }
+
+.landing-image {
+  position: absolute;
+  top: 48.5%;  /* Adjust this value to move the image up or down */
+  right: -160px;  /* Adjust this value to move the image left or right */
+  transform: translateY(-50%); /* This will center the image vertically */
+  max-width: 80%;  /* Adjust the size of the image as needed */
+  height: auto; /* Keep the aspect ratio of the image */
+  width: 60%; 
+   
+}
+
+.landing-imag2 {
+  position: absolute;
+  top: 59.5%;  /* Adjust this value to move the image up or down */
+  right: 0px;  /* Adjust this value to move the image left or right */
+  transform: translateY(-50%); /* This will center the image vertically */
+  max-width: 50%;  /* Adjust the size of the image as needed */
+  height: auto; /* Keep the aspect ratio of the image */
+  width: 35%; 
+}
+
+.special-velocitytrade {
+    color: #1a8cd8; /* Example color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    font-weight: bold; /* Makes the font bolder */
+    background: -webkit-linear-gradient(#e66465, #9198e5); /* Gradient effect */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Apply the gradient to the text */
+    transition: transform 0.3s ease; /* Prepare for the hover effect */
+}
+
+.special-velocitytrade:hover {
+    transform: scale(1.05); /* Slightly enlarge the text on hover */
+}
+
+.half-circle-container {
+  width: 200px; /* Width is double the height to create a half-circle */
+  height: 100px; /* This is half of the width */
+  overflow: hidden; /* This will hide the parts of the image that overflow the container */
+  border-radius: 100px 100px 0 0; /* This creates the half-circle shape on the top edge */
+  /* For a bottom half-circle, use: border-radius: 0 0 100px 100px; */
+}
+

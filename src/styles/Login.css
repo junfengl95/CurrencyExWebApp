@@ -1,0 +1,65 @@
+/* Add these styles to your App.css or a separate CSS module for Login */
+
+.login-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start; /* Align to the top */
+  padding-top: 10vh; /* Add padding at the top to push the box down slightly */
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+  }
+  
+  .login-form {
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #333;
+    border-radius: .3em;
+    background: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    border-radius: .3em;
+    width: calc(100% - 1rem); /* Full width minus padding */
+  }
+  
+  .login-form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: .3em;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .login-form button:hover {
+    background: #555;
+  }
+  
+  .error-msg {
+    color: red;
+  }
+
+  .login-background {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg'); /* Use the direct URL to the online image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    }

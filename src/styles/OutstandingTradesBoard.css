@@ -1,0 +1,107 @@
+.order-board {
+  font-family: Arial, sans-serif; /* Use a clean, legible font */
+  max-width: 1400px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the table on the page */
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add subtle shadow for depth */
+  border-radius: 8px; /* Slightly rounded corners for the outer div */
+  background-color: rgb(245, 243, 247);
+}
+
+.order-board2 {
+  font-family: Arial, sans-serif; /* Use a clean, legible font */
+  max-width: 1400px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the table on the page */
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add subtle shadow for depth */
+  border-radius: 8px; /* Slightly rounded corners for the outer div */
+}
+
+.order-board3 {
+  font-family: Arial, sans-serif; /* Use a clean, legible font */
+  max-width: 1400px; /* Maximum width of the container */
+  margin: 0 auto; /* Center the table on the page */
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Add subtle shadow for depth */
+  border-radius: 8px; /* Slightly rounded corners for the outer div */
+}
+
+.order-board h2 {
+  text-align: center;
+  color: #333;
+}
+
+.refresh-button {
+  display: block; /* Make the button a block element to fill the width */
+  width: 100px; /* Set a fixed width for the button */
+  margin: 10px auto 20px; /* Center button and add spacing */
+  padding: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.refresh-button:hover {
+  background-color: #005f73;
+}
+
+.order-table {
+  width: 100%; /* Full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-bottom: 20px; /* Spacing after the table */
+  
+}
+
+.order-table thead {
+  background-color: #f2f2f2; /* Light grey background */
+  position: sticky;
+  top: 0; /* Stick to the top */
+  z-index: 10; /* Ensure it's above other content */
+}
+
+.order-table th,
+.order-table td {
+  text-align: left; /* Align text to the left */
+  padding: 12px 15px; /* Spacing inside cells */
+  border-bottom: 1px solid #ddd; /* Light border for each row */
+}
+
+.order-table th {
+  color: #555; /* Darker text for headers */
+  font-weight: bold;
+  background-color: #ecebeb;
+}
+
+.order-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+.order-table tr:hover {
+  background-color: #f1f1f1; /* Highlight on hover */
+}
+
+.order-table td button {
+  padding: 5px 10px; /* Padding inside buttons */
+  margin-right: 5px; /* Spacing between buttons */
+  border: none;
+  border-radius: 3px; /* Rounded corners for buttons */
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #ff4c4c; /* Red background for cancel button */
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #ff3333; /* Darker red on hover */
+}
+
+/* Change the background color of all table body rows */
+.order-table tbody tr {
+  background-color: #fff; /* Set your preferred color for table body rows */
+}
+

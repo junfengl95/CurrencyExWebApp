@@ -1,0 +1,54 @@
+/* .navigation ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 5px;
+  width: fit-content;
+  height: 60vh;
+  border: 3px solid #000000;
+  background-color: #747474;
+} 
+
+.navigation li a {
+  display: block;
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 5px;
+  font-size: 18px;
+} */
+
+
+.navigation {
+  position: fixed; /* Fixed position to stay in place during scroll */
+  top: 48px; /* Align the top of the navigation bar just below the header */
+  right: 0; /* Align to the right side of the viewport */
+  height: calc(100vh - 40px); /* Subtract the header height from the full viewport height */
+  width: auto; /* Only as wide as its content */
+  background-color: #747474; /* Background color of the nav bar */
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0; /* No margin for the list */
+  padding: 0; /* Reset padding to align with the top of the navigation bar */
+  height: 100%; /* Full height of its parent */
+}
+
+.navigation li {
+  margin: 15px 10px; /* Margin for each list item */
+  padding: 5px; /* Padding for each list item */
+}
+
+.navigation li a {
+  display: block;
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 18px;
+  text-decoration: none; /* Optional: removes underline from links */
+  color: black; /* Optional: sets the text color for links */
+  margin: 15px 10px 15px 10px; /* Added top margin */
+}
+
+.navigation ul li:first-child {
+  margin-top: 150px; /* Adjust this value as needed to move the first link down */
+}
+
